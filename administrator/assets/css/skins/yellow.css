@@ -1,0 +1,16 @@
+a {
+	color: #a5984d;
+}
+nav#topmenu {
+	background: #a5984d;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#a5984d), to(#837940));
+	background: -moz-linear-gradient(#a5984d, #837940);
+	background: linear-gradient(#a5984d, #837940);
+	-pie-background: linear-gradient(#a5984d, #837940);
+	border-top: 1px solid #d1c164;
+	border-bottom: 1px solid #645d34;
+}
+.button {
+	border: 1px solid #af9827;
+	background: #f2de6f;
+}

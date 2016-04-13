@@ -1,0 +1,117 @@
+body {
+	background:url(../images/body_1.png);
+	background-attachment:fixed;
+	background-size:cover;	
+	font-family:Arial, Helvetica, sans-serif;
+	margin:0px;
+	padding:0px;
+}
+#container {
+	margin:220px auto;
+	height:170px;
+	width:1000px;
+	box-shadow:0px 0px 5px  #333;
+}
+#leftcontent {
+	padding:3px;
+	margin:25px 10px;
+	float:left;
+	width:620px;
+	font-size:20px;
+	color:#000;
+	text-shadow:1px 2px #fcfcfc;
+}
+#rightcontent {	
+	padding:0px;
+	margin:7px 0px;
+	float:left;
+	background:url(../images/white.PNG);
+	box-shadow:0px 0px 3px #000;
+	width:340px;
+}
+#content {	
+	padding:0px;
+	margin:7px;
+	float:left;
+	background:url(../images/abu-putih1.png);
+	border:1px solid #ccc;
+	width:auto;
+	
+}
+.button {
+	margin:0px 0px;
+	padding:0px 14px;
+	height:32px;
+	background:url(../images/log.PNG) #06C;
+	* cursor: hand;
+	border:1px #06C solid;
+	font-size:15px;
+	color:#FFF;
+	cursor:pointer;
+	font-weight:bold;
+	text-shadow: 1px 1px #03F;
+	padding-bottom:2px;
+	font-family:Arial, Helvetica, sans-serif;
+}
+.button:hover {
+	background:url(../images/log.PNG) #03C;
+	border:1px #03F solid;
+}
+
+.inputuser {
+	background:url(../images/user1.png) #fff;
+	width:267px;
+	margin:10px 10px 0px;
+	padding:3px 0px 5px 30px;
+	height:25px;
+	color:#999;
+	text-shadow:1px 1px #fcfcfc;
+	border:1px solid #ccc;
+}
+
+.inputuser:hover {
+	border:1px solid #09C;
+	box-shadow:0px 0px 6px #999;
+}
+.inputpass {
+	background:url(../images/pass.png) #fff;
+	width:227px;
+	margin:0px 0px 0px 10px;
+	padding:3px 0px 5px 30px;
+	border:0px;
+	height:25px;
+	color:#999;
+	text-shadow:1px 1px #fcfcfc;
+	border:1px solid #ccc;
+}
+.inputpass:hover {
+	border:1px solid #09C;
+	box-shadow:0px 0px 6px #999;
+}
+.error_msg {
+	margin:0px 11px;
+	width:295px;
+	background: #F3D9D9 url(../../administrator/images/icons/exclamation-red.png) no-repeat;
+	background-position: 5px 5px;
+	border: 1px solid #D20009;
+	color: #7B040F;
+	font-weight:bold;
+	padding: 5px 0;
+	text-indent: 30px;
+	font-size: 12px;
+}
+.copy {
+	padding:200px;
+	margin:30px 210px  auto;
+	font-size:12px;
+	color:#FFF;
+	text-shadow:0px 1px 1px #fff;
+}
+.copy a {
+	text-decoration:none;
+	color:#000;
+}
+.copy a:hover {
+	text-decoration:none;
+	color:#039;
+}

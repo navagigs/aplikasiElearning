@@ -1,0 +1,22 @@
+a {
+	color: #666;
+}
+header#top a, footer#bottom a {
+	color: #aaa
+}
+header#top a:hover, footer#bottom a:hover {
+	text-decoration: underline;
+}
+nav#topmenu {
+	background: #333;
+	background: -webkit-gradient(linear, 0 0, 0 bottom, from(#333), to(#2b2b2b));
+	background: -moz-linear-gradient(#333, #2b2b2b);
+	background: linear-gradient(#333, #2b2b2b);
+	-pie-background: linear-gradient(#333, #2b2b2b);
+	border-top: 1px solid #444;
+	border-bottom: 1px solid #000;
+}
+.button {
+	border: 1px solid #000;
+	background: #444;
+}

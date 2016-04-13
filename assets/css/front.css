@@ -1,0 +1,289 @@
+@charset "utf-8";
+/* CSS Document */
+
+a {
+	text-decoration:none;
+	color:#06F;
+	font-weight:bold;
+}
+.tombol {
+	padding:5px;
+	margin:2px auto;
+	background:#fff;
+	cursor:pointer;
+	border:1px solid #ccc;
+	color: #000;
+}
+.tombol:hover {	
+	border:1px solid #b4dbe8;
+	background:#e3f2f7;
+	color:#000;
+}
+li {
+	list-style:none;
+}
+#wrapmenu {
+	background:url(../icon/silver.png);
+	box-shadow:0px 0px 1px #333;
+	border-bottom:1px solid #aaaaaa;
+	width:auto;
+	height:40px;
+}
+
+#container {
+	margin:15px auto;
+	width:auto;
+	padding:0px;
+}
+#wrap {
+	padding:0px 5px;
+}
+#leftContent {
+	width:10%;
+	float:left;
+}
+
+#rightContent2 {
+	width:100%;
+	float:left;
+}
+#rightContent {
+	width:90%;
+	float:left;
+}
+#main {
+	margin:5px;
+}
+#mainRight {
+	margin:5px;
+	border:1px solid #aaaaaa;
+	background:url(../icon/silver.png);
+}
+#title {
+	padding:7px;
+	color:#fff;
+	font-weight:bold;
+	text-shadow:1px 1px #000;
+}
+
+#titleLeft {
+	padding:0px 12px;
+	margin:0px auto;
+	color:#fff;
+}
+#listContent {
+	padding:11px 12px;
+	background:url(../icon/silver.png);
+	box-shadow:0px 0px 0px #036;
+	border:1px solid #aaaaaa;
+	color:#fff;
+}
+
+#listContent a {
+	text-decoration:none;
+	color:#fff;
+}
+#listContent:hover {
+	background:url(../icon/hover-sil.PNG);
+}
+#content {
+	padding:5px;
+	margin:5px;
+	background:#fff;
+}
+
+table
+{
+	border:1px solid #333;
+	width:100%;
+	border-collapse:collapse;
+}
+
+table.data{
+	border:1px solid #aaaaaa;
+	border-collapse:collapse;
+}
+
+table.data td,
+table.data th{
+	border:1px solid #aaaaaa;
+}
+
+table.data .topData{
+	vertical-align:top;
+}
+
+.data .odd{
+	background-color:#feffff;
+}
+
+.data .title{
+	background-image:url("../img/caption.png");
+	background-size:100% 100%;
+	color:#000000;
+	font-weight:bold;
+	text-shadow:none;
+}
+
+.data .title td{
+	vertical-align:middle;
+}
+
+.data .theader{
+	background:url(../icon/silver.png);
+	background-size:100% 100%;
+}
+
+.data a{
+	color:#000066;
+	text-decoration:none;
+}
+
+.data.form td{
+	border-left:none;
+	border-right:none;
+}
+
+.dttb td{
+	vertical-align:top;
+}
+
+section.icons{
+	text-align:center;
+}
+.icons ul{
+	margin-top:20px;
+	color:#000;
+}
+.icons ul li{
+	width:80px;
+	margin:0 20px 20px 0;
+	display:-moz-inline-stack;
+	display:inline-block;
+	vertical-align:top;
+	zoom:1;
+	*display:inline
+}
+.icons ul li a{
+	display:block;
+	padding:5px;
+	border:1px solid #f1f1f1;
+}
+.icons ul li a:hover{
+	background:url(../icon/silver.png);
+	color:#FFF;
+}
+.icons ul li a img{}.icons ul li a span{
+	font:11px Tahoma,sans-serif;
+	color:#333;
+	display:block;
+}
+table thead th{
+	background:-webkit-gradient(linear,0 0,0 bottom,from(#fff),to(#efefef));
+	background:-moz-linear-gradient(#fff,#efefef);
+	background:linear-gradient(#fff,#efefef);
+	-pie-background:linear-gradient(#fff,#efefef)
+}
+
+table{width:100%}
+table th{text-align:left; border:1px solid #ccc; padding:10px 10px}
+table thead tr{color:#333;border:1px solid #ccc}
+table thead th{background:url(../images/bg_table_th.png); }
+table tbody tr td{border:1px solid #eee}
+table tbody tr:nth-child(odd) td,.detailtable tbody tr.odd td{background-color:#fff ;}
+table tbody tr:nth-child(even) td,.detailtable tbody tr.even td{background-color:#F2F2F2 ;}
+table td{padding:5px 10px}
+table input{vertical-align:middle}
+table img{vertical-align:middle;margin-right:5px}
+table tr.detail{font-size:11px}
+table tr.detail td{padding:0}
+table tr.detail td td,table tr.detail td th{padding:2px 10px;color:#777}
+table .detail table{width:100%;border:5px solid #fff7d1}
+table .detail table tr td,table .detail table tr th{background:#ffffed;border-bottom:1px solid #fff7d1}
+
+.button {
+	padding:5px;
+	margin:2px auto;
+	background:#fff;
+	cursor:pointer;
+	border:1px solid #ccc;
+	color: #ccc;
+}
+
+.button:hover {
+	background:#c0fab4;
+	border:1px solid #60fb41;
+	color:#000;
+}
+		
+
+div.information{
+	border:1px solid #b4dbe8;
+	background:#e3f2f7 url(../../administrator/images/icons/information-balloon.png) 10px 13px no-repeat
+}
+
+div.msg{
+	padding:10px 10px 10px 37px;
+	margin-bottom:10px;
+	cursor:pointer
+}
+
+/* Alerts */
+
+#main h4.alert_info {
+	display: block;
+	width: 95%;
+	margin: 20px 3% 0 3%;
+	margin-top: 20px;
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+	background: #B5E5EF url(../images/icn_alert_info.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #77BACE;
+	color: #082B33;
+	padding: 10px 0;
+	text-indent: 40px;
+	font-size: 14px;
+}
+
+.alert_warning {
+	display: block;
+	width: 95%;
+	margin: 20px 3% 0 3%;
+	margin-top: 20px;
+	background: #F5F3BA url(../images/icn_alert_warning.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #C7A20D;
+	color: #796616;
+	padding: 10px 0;
+	text-indent: 40px;
+	font-size: 14px;
+}
+
+.alert_error {
+	display: block;
+	width: 95%;
+	margin: 20px 3% 0 3%;
+	margin-top: 20px;
+	background: #F3D9D9 url(../images/icn_alert_error.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #D20009;
+	color: #7B040F;
+	padding: 10px 0;
+	text-indent: 40px;
+	font-size: 14px;
+}
+.alert_success {
+	display: block;
+	width: 95%;
+	margin: 20px 3% 0 3%;
+	margin-top: 20px;
+	background: #E2F6C5 url(../images/icn_alert_success.png) no-repeat;
+	background-position: 10px 10px;
+	border: 1px solid #79C20D;
+	color: #32510F;
+	padding: 10px 0;
+	text-indent: 40px;
+	font-size: 14px;
+}

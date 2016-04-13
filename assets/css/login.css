@@ -1,0 +1,124 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	margin:0px;
+	padding:0px;
+	background:url(../images/bg_login.png);
+	font-family:"lucida grande",tahoma,verdana,arial,sans-serif;
+	font-size: 12px;
+}
+
+#container {
+	margin:150px auto;
+	width:530px;
+	height:172px;
+}
+#wrap {
+	padding:5px;
+}
+#main {
+	margin:5px 0px;
+	border:1px solid #CCC;
+}
+table {
+	float:right;
+	padding:0px;
+	margin:10px 0px;
+}
+#form {float:right;margin:0px;width:219px; margin-top:15px;}
+input[type="text"] , input[type="password"] {
+	margin:0px;
+	margin-bottom:5px;
+	background:url(../images/input_login.png) no-repeat left top;
+	width:170px;
+	height:20px;
+	border:none;
+	color:#747474;
+	font-size:14px;
+	font-weight:normal;
+	text-shadow:1px 1px #fcfcfc;
+	padding:8px;
+}
+.button {
+	margin:5px 0px;
+	padding:5px 15px;
+	height:33px;
+	background:url(../images/fbut-bg_orange.png);
+	* cursor: hand;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	border-radius: 4px;
+	border:1px #8eb530 solid;
+	font-size:15px;
+	cursor:pointer;
+	text-shadow: 1px 1px #c3ff21;
+	font-weight:bold;
+	border-radius:6px;
+	padding-bottom:5px;
+}
+.button:hover {
+	background:url(../images/fbut-bg_orange_hover.PNG);
+}
+.td {
+	margin:5px auto;
+	padding:0px 5px;
+}
+.error_msg {
+	width:auto;
+	float:none;
+	-webkit-border-radius: 3px;
+	-moz-border-radius: 3px;
+	border-radius: 3px;
+	background: #F3D9D9 url(../../administrator/images/icons/exclamation-red.png) no-repeat;
+	background-position: 5px 5px;
+	border: 1px solid #D20009;
+	color: #7B040F;
+	font-weight:bold;
+	padding: 5px 0;
+	text-indent: 30px;
+	font-size: 12px;
+}
+
+input:-moz-placeholder{font-family:Georgia,serif;color:#666;font-style:italic;}
+.a {
+	color:#000;
+	text-shadow:1px 1px #fcfcfc;
+	text-decoration:none;
+	font-weight:bold;
+}
+.a:hover {
+	color:#C00;
+	text-decoration:underline;
+	text-decoration:none;
+}
+a {
+	color:#ccc;
+	text-decoration:underline;
+	text-shadow:1px 1px #fcfcfc;
+}
+
+p{ 
+	color:#CCC;
+	text-shadow:1px 1px #fcfcfc;
+	margin:90px 550px;
+}
+p:hover a {
+	color:#00F;
+	text-shadow:1px 1px #fcfcfc;
+}
+.copy {
+	padding:0px;
+	margin:10px 550px  auto;
+	font-size:13px;
+	color:#999;
+	text-shadow:0px 1px 1px #fff;
+}
+.copy a {
+	text-decoration:none;
+	color:#000;
+}
+.copy a:hover {
+	text-decoration:none;
+	color:#039;
+}

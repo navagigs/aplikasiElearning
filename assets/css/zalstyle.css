@@ -1,0 +1,12 @@
+
+
+h1,h2,h3,h4,h5,h6 {
+    color: #475d68;
+    text-shadow: 0 1px 0 #fff;
+    line-height: 10px
+}
+
+h1 {
+    font-size: 22px
+}
+
